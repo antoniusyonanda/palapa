@@ -2,7 +2,7 @@ const gulp = require('gulp');
 const htmlPartial = require('gulp-html-partial');
  
 gulp.task('html', function () {
-    gulp.src(['**/*.html'])
+    gulp.src(['**/*.html', '!partials/**'])
         .pipe(htmlPartial({
             basePath: __dirname + '/partials/'
         }))

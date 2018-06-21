@@ -1,146 +1,102 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
     <!-- Begin Head -->
+    
     <head>
         <!-- Basic -->
-        <meta charset="utf-8"/>
+        <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Megakit - HTML5 Theme</title>
-        <meta name="keywords" content="HTML5 Theme" />
+        <meta name="keywords" content="HTML5 Theme"
+        />
         <meta name="description" content="Megakit - HTML5 Theme">
         <meta name="author" content="keenthemes.com">
-
         <!-- Web Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Montserrat:400,700" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Montserrat:400,700"
+        rel="stylesheet">
         <!-- Vendor Styles -->
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/animate.css" rel="stylesheet" type="text/css"/>
-        <link href="vendor/themify/themify.css" rel="stylesheet" type="text/css"/>
-        <link href="vendor/scrollbar/scrollbar.min.css" rel="stylesheet" type="text/css"/>
-
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"
+        />
+        <link href="css/animate.css" rel="stylesheet" type="text/css" />
+        <link href="vendor/themify/themify.css" rel="stylesheet" type="text/css"
+        />
+        <link href="vendor/scrollbar/scrollbar.min.css" rel="stylesheet" type="text/css"
+        />
         <!-- Theme Styles -->
-        <link href="css/style.css" rel="stylesheet" type="text/css"/>
-        <link href="css/global/global.css" rel="stylesheet" type="text/css"/>
-
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link href="css/global/global.css" rel="stylesheet" type="text/css" />
+        <!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.2/css/uikit.min.css"
+        />
+        <!-- style acss -->
+        <link rel="stylesheet" href="/public/css/mt-style.css">
         <!-- Favicon -->
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
         <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
     </head>
     <!-- End Head -->
-
     <!-- Body -->
+    
     <body>
+        <!-- navbar -->
+        <!-- nav -->
+        <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; top: 5">
+            <nav class="uk-navbar-container" style="background: #073c64">
+                <div class="uk-container">
+                    <div uk-navbar>
+                        <div class="uk-navbar-left" style="max-width: 20%;"> <a class="uk-navbar-item uk-logo" href="/">
 
-        <!--========== HEADER ==========-->
-        <header class="navbar-fixed-top s-header js__header-sticky js__header-overlay">
-            <!-- Navbar -->
-            <div class="s-header__navbar">
-                <div class="s-header__container">
-                    <div class="s-header__navbar-row">
-                        <div class="s-header__navbar-row-col">
-                            <!-- Logo -->
-                            <div class="s-header__logo">
-                                <a href="index.html" class="s-header__logo-link">
-                                    <img class="s-header__logo-img s-header__logo-img-default" src="img/logo.png" alt="Megakit Logo">
-                                    <img class="s-header__logo-img s-header__logo-img-shrink" src="img/logo-dark.png" alt="Megakit Logo">
-                                </a>
-                            </div>
-                            <!-- End Logo -->
+                  <img src="/public/img/logo-navbar.png">
+
+               </a>
                         </div>
-                        <div class="s-header__navbar-row-col">
-                            <!-- Trigger -->
-                            <a href="javascript:void(0);" class="s-header__trigger js__trigger">
-                                <span class="s-header__trigger-icon"></span>
-                                <svg x="0rem" y="0rem" width="3.125rem" height="3.125rem" viewbox="0 0 54 54">
-                                    <circle fill="transparent" stroke="#fff" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
-                                </svg>
-                            </a>
-                            <!-- End Trigger -->
+                        <div class="uk-navbar-right">
+                            <ul class="uk-navbar-nav" style="color: white;">
+                                <li> <a href="/">Home</a>
+                                </li>
+                                <li> <a href="/peta/index.html">Peta UGM</a>
+                                </li>
+                                <li> <a href="/pilih-hari.html">Agenda Materi Atribut Penugasan</a>
+                                </li>
+                                <li> <a href="#">Galeri</a>
+                                    <div class="uk-navbar-dropdown">
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li><a href="/foto.html">Foto</a>
+
+                                            </li>
+                                            <li><a href="/video.html">Video</a>
+
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li> <a href="#">Contacs</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- End Navbar -->
-
-            <!-- Overlay -->
-            <div class="s-header-bg-overlay js__bg-overlay">
-                <!-- Nav -->
-                <nav class="s-header__nav js__scrollbar">
-                    <div class="container-fluid">
-                        <!-- Menu List -->                                
-                        <ul class="list-unstyled s-header__nav-menu">
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index.html">Corporate</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_app_landing.html">App Landing</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_portfolio.html">Portfolio</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_events.html">Events</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_lawyer.html">Lawyer</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_clinic.html">Clinic</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_coming_soon.html">Coming Soon</a></li>
-                        </ul>
-                        <!-- End Menu List -->
-
-                        <!-- Menu List -->                                
-                        <ul class="list-unstyled s-header__nav-menu">
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="about.html">About</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider -is-active" href="team.html">Team</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="services.html">Services</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="events.html">Events</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="faq.html">FAQ</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="contacts.html">Contacts</a></li>
-                        </ul>
-                        <!-- End Menu List -->
-                    </div>
-                </nav>
-                <!-- End Nav -->
-                
-                <!-- Action -->
-                <ul class="list-inline s-header__action s-header__action--lb">
-                    <li class="s-header__action-item"><a class="s-header__action-link -is-active" href="#">En</a></li>
-                    <li class="s-header__action-item"><a class="s-header__action-link" href="#">Fr</a></li>
-                </ul>
-                <!-- End Action -->
-
-                <!-- Action -->
-                <ul class="list-inline s-header__action s-header__action--rb">
-                    <li class="s-header__action-item">
-                        <a class="s-header__action-link" href="https://www.behance.net/keenthemes">
-                            <i class="g-padding-r-5--xs ti-facebook"></i>
-                            <span class="g-display-none--xs g-display-inline-block--sm">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="s-header__action-item">
-                        <a class="s-header__action-link" href="https://twitter.com/keenthemes">
-                            <i class="g-padding-r-5--xs ti-twitter"></i>
-                            <span class="g-display-none--xs g-display-inline-block--sm">Twitter</span>
-                        </a>
-                    </li>
-                    <li class="s-header__action-item">
-                        <a class="s-header__action-link" href="https://dribbble.com/keenthemes">
-                            <i class="g-padding-r-5--xs ti-dribbble"></i>
-                            <span class="g-display-none--xs g-display-inline-block--sm">Dribbble</span>
-                        </a>
-                    </li>
-                </ul>
-                <!-- End Action -->
-            </div>
-            <!-- End Overlay -->
-        </header>
-        <!--========== END HEADER ==========-->
-
-        <!--========== PAGE CONTENT ==========-->
+            </nav>
+        </div>
+        <!-- end nav -->
+        <!--==========P AGE CONTENT==========-->
         <!-- Speakers -->
         <div class="container g-padding-y-80--xs g-padding-y-125--sm">
             <div class="row g-overflow--hidden">
                 <div class="col-xs-6 g-full-width--xs g-margin-b-30--xs g-margin-b-0--lg">
                     <!-- Speaker -->
                     <div class="center-block g-box-shadow__dark-lightest-v1 g-width-100-percent--xs g-width-400--lg">
-                        <!-- <img  src="img/400x400/02.jpg" alt="Image"> -->
-                        <iframe class="img-responsive g-width-100-percent--xs " style="max-height: 200%" src="https://drive.google.com/file/d/1ZP9YYSdh9y1RLRdWK4qI_wB_K5U7NWHK/preview" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <!-- <img src="img/400x400/02.jpg" alt="Image"> -->
+                        <iframe class="img-responsive g-width-100-percent--xs " style="max-height: 200%"
+                        src="https://drive.google.com/file/d/1ZP9YYSdh9y1RLRdWK4qI_wB_K5U7NWHK/preview"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         <div class="g-position--overlay g-padding-x-30--xs g-padding-y-30--xs g-margin-t-o-60--xs">
-                            <p class="g-font-weight--700"><br></p>
-                            <p><h4 class="g-font-size-24--xs g-font-size-26--sm g-margin-b-0--xs">Throwback PPSMB UGM 2017</h4>
+                            <p class="g-font-weight--700">
+                                <br>
+                            </p>
+                            <p>
+                                 <h4 class="g-font-size-24--xs g-font-size-26--sm g-margin-b-0--xs">Throwback PPSMB UGM 2017</h4>
                             </p>
                         </div>
                     </div>
@@ -149,11 +105,16 @@
                 <div class="col-xs-6 g-full-width--xs">
                     <!-- Speaker -->
                     <div class="center-block g-box-shadow__dark-lightest-v1 g-width-100-percent--xs g-width-400--lg">
-                        <!-- <img  src="img/400x400/02.jpg" alt="Image"> -->
-                        <iframe class="img-responsive g-width-100-percent--xs " style="max-height: 200%" src="https://drive.google.com/file/d/1ZP9YYSdh9y1RLRdWK4qI_wB_K5U7NWHK/preview" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <!-- <img src="img/400x400/02.jpg" alt="Image"> -->
+                        <iframe class="img-responsive g-width-100-percent--xs " style="max-height: 200%"
+                        src="https://drive.google.com/file/d/1ZP9YYSdh9y1RLRdWK4qI_wB_K5U7NWHK/preview"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         <div class="g-position--overlay g-padding-x-30--xs g-padding-y-30--xs g-margin-t-o-60--xs">
-                            <p class="g-font-weight--700"><br></p>
-                            <p><h4 class="g-font-size-24--xs g-font-size-26--sm g-margin-b-0--xs">Throwback PPSMB UGM 2017</h4>
+                            <p class="g-font-weight--700">
+                                <br>
+                            </p>
+                            <p>
+                                 <h4 class="g-font-size-24--xs g-font-size-26--sm g-margin-b-0--xs">Throwback PPSMB UGM 2017</h4>
                             </p>
                         </div>
                     </div>
@@ -162,68 +123,28 @@
             </div>
         </div>
         <!-- End Speakers -->
-
-        <!--========== END PAGE CONTENT ==========-->
-
-        <!--========== FOOTER ==========-->
-        <footer class="g-bg-color--dark">
-            <!-- Links -->
-            <div class="g-hor-divider__dashed--white-opacity-lightest">
-                <div class="container g-padding-y-80--xs">
-                    <div class="row">
-                        <div class="col-sm-2 g-margin-b-20--xs g-margin-b-0--md">
-                            <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Home</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">About</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Work</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Contact</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-2 g-margin-b-20--xs g-margin-b-0--md">
-                            <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Twitter</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Facebook</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Instagram</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">YouTube</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-2 g-margin-b-40--xs g-margin-b-0--md">
-                            <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Subscribe to Our Newsletter</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Privacy Policy</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Terms &amp; Conditions</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 s-footer__logo g-padding-y-50--xs g-padding-y-0--md">
-                            <h3 class="g-font-size-18--xs g-color--white">Megakit</h3>
-                            <p class="g-color--white-opacity">We are a creative studio focusing on culture, luxury, editorial &amp; art. Somewhere between sophistication and simplicity.</p>
-                        </div>
-                    </div>
-                </div>
+        <!--==========E ND PAGE CONTENT==========-->
+        <footer style="background: #073c64; padding-top: 56px; padding-bottom: 56px;">
+            <div class="uk-flex uk-flex-center">
+                <div class="uk-container grid-normal" uk-grid>
+                    <div class="uk-width-1-3@m" style="color: white;">Panitia Pusat PPSMB UGM 2018 Subdirektorat Pengembangan Karakter Mahasiswa
+                        Direktorat Kemahasiswaan Universitas Gadjah Mada ppsmbugm@ugm.ac.id</div>
+                    <div
+                    class="uk-width-1-3@m" style="color: white;">Korespondensi/Alamat :
+                        <br>Jl. Asem Kranji Blok K-8 Sekip, Bulaksumur, Sleman, Yogyakarta. 55281
+                        Pusat Informasi :
+                        <br>HELP DESK PPSMB : 0823 3836 2002 (hari kerja pukul 08.00 - 16.00 WIB).
+                        <br>HELP DESK Registrasi, UKT, dsb : 0857-0955-9730 (Hanya Whatsapp)</div>
             </div>
-            <!-- End Links -->
-
-            <!-- Copyright -->
-            <div class="container g-padding-y-50--xs">
-                <div class="row">
-                    <div class="col-xs-6">
-                        <a href="index.html">
-                            <img class="g-width-100--xs g-height-auto--xs" src="img/logo.png" alt="Megakit Logo">
-                        </a>
-                    </div>
-                    <div class="col-xs-6 g-text-right--xs">
-                        <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a href="http://keenthemes.com/preview/Megakit/">Megakit</a> Theme Powered by: <a href="http://www.keenthemes.com/">KeenThemes.com</a></p>
-                    </div>
-                </div>
             </div>
-            <!-- End Copyright -->
+            <hr>
+            <div class="uk-flex uk-flex-center">
+                <div class="uk-container uk-flex uk-flex-right uk-width-1-1" style="color: rgba(255, 255, 255, 0.5)">© Tim IT PPSMB PALAPA 2018</div>
+            </div>
         </footer>
-        <!--========== END FOOTER ==========-->
-
-        <!-- Back To Top -->
-        <a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a>
-
-        <!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
+        <!-- Back To Top --> <a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a>
+        <!--==========J
+        AVASCRIPTS (Load javascripts at bottom, this will reduce page load time)==========-->
         <!-- Vendor -->
         <script type="text/javascript" src="vendor/jquery.min.js"></script>
         <script type="text/javascript" src="vendor/jquery.migrate.min.js"></script>
@@ -233,14 +154,15 @@
         <script type="text/javascript" src="vendor/scrollbar/jquery.scrollbar.min.js"></script>
         <script type="text/javascript" src="vendor/jquery.parallax.min.js"></script>
         <script type="text/javascript" src="vendor/jquery.wow.min.js"></script>
-
         <!-- General Components and Settings -->
         <script type="text/javascript" src="js/global.min.js"></script>
         <script type="text/javascript" src="js/components/header-sticky.min.js"></script>
         <script type="text/javascript" src="js/components/scrollbar.min.js"></script>
         <script type="text/javascript" src="js/components/wow.min.js"></script>
-        <!--========== END JAVASCRIPTS ==========-->
-
+        <!--==========E ND JAVASCRIPTS==========-->
+        <!-- UIkit JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.6/js/uikit.min.js"></script>
     </body>
     <!-- End Body -->
+
 </html>
