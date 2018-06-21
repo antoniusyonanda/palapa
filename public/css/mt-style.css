@@ -1,0 +1,46 @@
+.main-blue-bg{
+   background: #073c64;
+}
+
+.uk-navbar-nav > li > a {
+   color: white;
+   text-transform: uppercase;
+   transition: .1s ease-in-out;
+       transition-property: all;
+   transition-property: color,background-color;
+}
+
+.uk-navbar-nav > li:hover > a{
+   color: #E0E0E0;
+}
+
+.uk-navbar-nav > li.uk-active > a {
+   color: #78909C;
+}
+
+.card-margin-1{
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+.grid-normal{
+    margin-left: 0px;
+}
+
+.col-normal{
+    padding-left: 0px;
+}
+
+.txt-medium{
+    font-size: 18px;
+}
+
+.btn-blue{
+    background: #13b1cd; 
+    color: white;
+}
+
+.margin-card{
+    margin-left: 12px;
+    margin-right: 12px;
+}

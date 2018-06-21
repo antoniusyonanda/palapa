@@ -1,0 +1,6 @@
+keterangan partials:
+- breadcrumb-1 : untuk breadcrumb lv 1
+- menu-hari : menu atribut, materi, penugasan pada hari
+- navbar : navigasi atas
+- head : partial head agar cepat
+- breadcrumb-2 : breadcrumb section lv 2 untuk ppsm universitas
