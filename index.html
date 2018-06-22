@@ -29,7 +29,7 @@
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="img/favicon.ico">
 </head>
 <!-- End Head -->
 
@@ -80,7 +80,7 @@ s0.parentNode.insertBefore(s1,s0);
                         <div class="collapse navbar-collapse s-header-v2__navbar-collapse" id="nav-collapse">
                             <ul class="s-header-v2__nav">
                                 <!-- Home -->
-                                <li class="s-header-v2__nav-item"><a href="/" class="s-header-v2__nav-link s-header-v2__nav-link--dark">Home</a></li>
+                                <li class="s-header-v2__nav-item"><a href="/" class="s-header-v2__nav-link s-header-v2__nav-link--dark -is-active">Home</a></li>
                                 <!-- <ul class="dropdown-menu s-header-v2__dropdown-menu">
                                         <li><a href="index.html" class="s-header-v2__dropdown-menu-link">Corporate</a></li>
                                         <li><a href="index_lawyer.html" class="s-header-v2__dropdown-menu-link">Lawyer</a></li>
@@ -182,11 +182,10 @@ s0.parentNode.insertBefore(s1,s0);
     <!--========== END HEADER ==========-->
 
     <!--========== PROMO BLOCK ==========-->
-    <section class="s-video-v2__bg" data-vidbg-bg="mp4: include/media/mp4_video.mp4, webm: include/media/webm_video.webm, poster: include/media/fallback.jpg" data-vidbg-options="loop: true, muted: true, overlay: false">
+    <section class="s-video-v2__bg" data-vidbg-bg="mp4: include/media/header_landing.mp4, webm: include/media/header_landing.webm, poster: include/media/fallback.jpg" data-vidbg-options="loop: true, muted: true, overlay: false">
         <div class="container g-position--overlay g-text-center--xs">
             <div class="g-padding-y-50--xs g-margin-t-100--xs g-margin-b-100--xs g-margin-b-250--md">
-                <h1 class="g-font-size-36--xs g-font-size-50--sm g-font-size-60--md g-color--white">PPSMB UGM 2018</h1>
-                <h2 class="g-font-size-36--xs g-font-size-50--sm g-font-size-60--md g-color--white">Bersatu UGM Kita, Bersatu Nusantara, Indonesia Jaya</h2>
+                <img style="max-width: 70%;" src="img/PPSMB_Logo.png" class="img-fluid" alt="PPSMB UGM 2018">
             </div>
         </div>
     </section>
@@ -204,7 +203,7 @@ s0.parentNode.insertBefore(s1,s0);
     <!-- Berita -->
     <div class="container-fluid g-padding-y-80--xs g-padding-y-125--sm">
         <div class="g-text-center--xs g-margin-b-80--xs">
-            <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Berita Terkini</p>
+            <p class="text-uppercase g-font-size-40--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Berita Terkini</p>
             <p></p>
         </div>
 
@@ -287,7 +286,7 @@ s0.parentNode.insertBefore(s1,s0);
 
 
     <!--========== PAGE CONTENT ==========-->
-    <!-- Apaitu PPSMB -->
+    <!-- Apa itu PPSMB -->
     <!--========== PAGE CONTENT ==========-->
         <!-- Mockup -->
         <div id="js__scroll-to-section" class="container g-padding-y-80--xs g-padding-y-125--xsm">
@@ -295,11 +294,15 @@ s0.parentNode.insertBefore(s1,s0);
                 <div class="col-sm-5 g-hor-centered-row__col">
                     <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Apa itu </p>
                     <h2 class="g-font-size-32--xs g-font-size-36--sm g-margin-b-25--xs">PPSMB?</h2>
-                    <p class="g-font-size-18--sm">We aim high at being focused on building relationships with our clients and community. Using our creative gifts drives this foundation.</p>
+                    <p class="g-font-size-18--sm">PPSMB (Pelatihan Pembelajar Sukses bagi Mahasiswa Baru) adalah kegiatan resmi orientasi dan pengenalan kampus bagi mahasiswa baru di lingkungan UGM.  
+                        <br>
+                        PPSMB memiliki 2 tujuan yaitu : <br>
+                        1. Mewujudkan kegiatan orientasi dan pengenalan kampus yang berorientasi pada nilai-nilai luhur dan jati diri Universitas; <br>
+                        2. Membentuk karakter mahasiswa yang mengedepankan sikap sebagai intelektual yang mengandalkan kecerdasan berpikir, kedewasaan dalam bertutur kata dan bertindak, anti kekerasan, berbudaya, bermartabat, inspiratif, serta menjunjung tinggi nilai-nilai Pancasila.<br></p>
                 </div>
                 <div class="col-sm-1"></div>
                 <div class="col-sm-5 g-hor-centered-row__col">
-                    <img class="img-responsive" src="img/mockups/iphone-03.png" alt="Mockup Image">
+                    <img class="img-responsive" src="img/definisi.png" alt="Mockup Image">
                 </div>
             </div>
             <div class="row g-hor-centered-row--md g-row-col--5">
@@ -326,9 +329,9 @@ s0.parentNode.insertBefore(s1,s0);
                     <div class="g-margin-b-30--xs">
                         <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">Video Trailer<br>PPSMB UGM 2018</h1>
                     </div>
-                    <a class="js__popup__youtube" href="https://www.youtube.com/watch?v=lcFYdgZKZxY" title="Intro Video">
-                        <i class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-control-play"></i>
-                    </a>
+                    <div>
+                    <iframe style="max-width: 500%; max-height: 200%" src="https://drive.google.com/file/d/1ZP9YYSdh9y1RLRdWK4qI_wB_K5U7NWHK/preview"  ></iframe>
+                    </div>
                 </div>
             </div>
             <!-- <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('img/1920x1080/01.jpg');">
@@ -355,11 +358,11 @@ s0.parentNode.insertBefore(s1,s0);
 
                 <div class="row g-row-col--5">
                     <!-- Plan -->
-                    <div class="col-md-4 g-margin-b-10--xs g-margin-b-0--lg">
+                    <div class="col-md-12 g-margin-b-10--xs g-margin-b-0--lg">
                         <div class="wow fadeInUp" data-wow-duration=".3" data-wow-delay=".1s">
                             <div class="s-plan-v1 g-text-center--xs g-bg-color--white g-padding-y-100--xs">
                                 <i class="g-display-block--xs g-font-size-40--xs g-color--primary g-margin-b-30--xs ti-archive"></i>
-                                <h3 class="g-font-size-18--xs g-color--primary g-margin-b-30--xs">Materi</h3>
+                                <h3 class="g-font-size-18--xs g-color--primary g-margin-b-30--xs">Agenda - Materi - Atribut Penugasan</h3>
                                 <!-- <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-40--xs">
                                 <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Mobile-Optimized Website</li>
                                 <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Powerful Documentation</li>
@@ -368,54 +371,13 @@ s0.parentNode.insertBefore(s1,s0);
                                 <span class="s-plan-v1__price-mark">$</span>
                                 <span class="s-plan-v1__price-tag">39</span>
                             </div> -->
-                                <a href="/pilih-hari.html" type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs">Materi</a>
+                                <a href="/pilih-hari.html" type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs">Cek Kelengkapanmu Disini!</a>
                             </div>
                         </div>
                     </div>
                     <!-- End Plan -->
 
-                    <!-- Plan -->
-                    <div class="col-md-4 g-margin-b-10--xs g-margin-b-0--lg">
-                        <div class="wow fadeInUp" data-wow-duration=".3" data-wow-delay=".2s">
-                            <div class="s-plan-v1 g-text-center--xs g-bg-color--white g-padding-y-100--xs">
-                                <i class="g-display-block--xs g-font-size-40--xs g-color--primary g-margin-b-30--xs ti-package"></i>
-                                <h3 class="g-font-size-18--xs g-color--primary g-margin-b-30--xs">Atribut</h3>
-                                <!-- <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-40--xs">
-                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Mobile-Optimized Website</li>
-                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Powerful Documentation</li>
-                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Sell Unlimited Products</li>
-                            </ul> -->
-                                <!-- <div class="g-margin-b-40--xs">
-                                <span class="s-plan-v1__price-mark">$</span>
-                                <span class="s-plan-v1__price-tag">59</span>
-                            </div> -->
-                                <a href="/pilih-hari.html" type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs">Atribut</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Plan -->
-
-                    <!-- Plan -->
-                    <div class="col-md-4">
-                        <div class="wow fadeInUp" data-wow-duration=".3" data-wow-delay=".3s">
-                            <div class="s-plan-v1 g-text-center--xs g-bg-color--white g-padding-y-100--xs">
-                                <i class="g-display-block--xs g-font-size-40--xs g-color--primary g-margin-b-30--xs ti-gift"></i>
-                                <h3 class="g-font-size-18--xs g-color--primary g-margin-b-30--xs">Penugasan</h3>
-                                <!-- <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-40--xs">
-                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Mobile-Optimized Website</li>
-                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Powerful Documentation</li>
-                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Sell Unlimited Products</li>
-                                <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> 24/7 Customer Support</li>
-                            <!-- </ul> -->
-                                <!-- <div class="g-margin-b-40--xs">
-                                <span class="s-plan-v1__price-mark">$</span>
-                                <span class="s-plan-v1__price-tag">79</span>
-                            </div> -->
-                                <a href="pilih-hari.html" type="button" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs">Penugasan</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Plan -->
+                    
                 </div>
             </div>
         </div>
@@ -431,10 +393,10 @@ s0.parentNode.insertBefore(s1,s0);
                     <div class="row">
                         <div class="col-sm-4 g-margin-b-20--xs g-margin-b-0--md">
                             <div class="g-font-size-15--xs g-color--white-opacity">
-                            Panitia Pusat PPSMB UGM 2017<br>
+                            Panitia Pusat PPSMB UGM 2018<br>
                             Subdirektorat Pengembangan Karakter Mahasiswa<br>
                             Direktorat Kemahasiswaan Universitas Gadjah Mada<br>
-                            ppsmbugm@ugm.ac.id
+                            <div class="ti-email"> tanyapalapa@gmail.com</div> 
                         </div>
                         </div>
                         <div class="col-sm-4 g-margin-b-20--xs g-margin-b-0--md">
@@ -443,17 +405,14 @@ s0.parentNode.insertBefore(s1,s0);
                                         Jl. Asem Kranji Blok K-8 Sekip, Bulaksumur, Sleman, Yogyakarta. 55281<br><br>
                                         Pusat Informasi :<br>                                        
                                         HELP DESK PPSMB : 0813-8142-2016 <br>(hari kerja pukul 08.00 - 16.00 WIB).<br>                                        
-                                        HELP DESK Registrasi, UKT, dsb : 0857-0955-9730 (Hanya Whatsapp)                                        
+                                        HELP DESK Registrasi, UKT, dsb : +62-274-551222 (Hanya Whatsapp)                                        
                                 </div>
                             </div>
                         <div class="col-sm-4 g-margin-b-20--xs g-margin-b-0--md">
                                 <div class="g-font-size-15--xs g-color--white-opacity">
-                                Panitia Pusat PPSMB UGM 2017<br>
-                                Subdirektorat Pengembangan Karakter Mahasiswa<br>
-                                Direktorat Kemahasiswaan Universitas Gadjah Mada<br>
-                                ppsmbugm@ugm.ac.id
-                            </div>
-                            </div>
+                                Akun Resmi PPSMB:
+                                </div>
+                        </div>
                     </div>
                 </div>
             </div>
