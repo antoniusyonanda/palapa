@@ -45,14 +45,15 @@
             <nav class="uk-navbar-container" style="background: #073c64">
                 <div class="uk-container">
                     <div uk-navbar>
-                        <div class="uk-navbar-left" style="max-width: 20%;"> <a class="uk-navbar-item uk-logo" href="/">
+                        <div class="uk-navbar-left logo-width"> <a class="uk-navbar-item uk-logo" href="/">
 
                   <img src="/public/img/logo-navbar.png">
 
                </a>
                         </div>
                         <div class="uk-navbar-right">
-                            <ul class="uk-navbar-nav" style="color: white;">
+
+                            <ul class="uk-navbar-nav uk-visible@s" style="color: white;">
                                 <li> <a href="/">Home</a>
                                 </li>
                                 <li> <a href="/peta/index.html">Peta UGM</a>
@@ -73,11 +74,45 @@
                                 </li>
                                 <li> <a href="#">Contacs</a>
                                 </li>
-                            </ul>
+                            </ul>	<a class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon href="#modal-menu"
+                            uk-toggle></a>
                         </div>
                     </div>
                 </div>
             </nav>
+            <div id="modal-menu" uk-modal>
+                <div class="uk-modal-dialog">
+                    <button class="uk-modal-close-default" type="button" uk-close></button>
+                    <div class="uk-modal-header">
+                        	<h2 class="uk-modal-title">Menu</h2>
+                    </div>
+                    <div class="uk-modal-body">
+                        <ul class="uk-list uk-list-striped">
+                            <li>	<a href="/">Home</a>
+                            </li>
+                            <li>	<a href="/peta/index.html">Peta UGM</a>
+                            </li>
+                            <li>	<a href="/pilih-hari.html">Agenda Materi Atribut Penugasan</a>
+                            </li>
+                            <li>	<a href="#">Galeri</a>
+                                <ul class="uk-list uk-list-divider">
+                                    <li><a href="/foto.html">Foto</a>
+
+                                    </li>
+                                    <li><a href="/video.html">Video</a>
+
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>	<a href="#">Contacs</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="uk-modal-footer uk-text-right">
+                        <button class="uk-button uk-button-default uk-modal-close" type="button">Tutup</button>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- end nav -->
         <!--==========P AGE CONTENT==========-->
