@@ -28,8 +28,9 @@
     <link href="css/global/global.css" rel="stylesheet" type="text/css" />
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="http://example.com/favicon.ico" />
+<link rel="icon" type="image/png" href="http://example.com/favicon.png" />
+<link rel="icon" type="image/gif" href="http://example.com/favicon.gif" />
 </head>
 <!-- End Head -->
 
@@ -37,17 +38,7 @@
 
 <body>
     <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5b2a7e43eba8cd3125e306f8/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
+
 <!--End of Tawk.to Script-->
     <!--========== HEADER ==========-->
     <header class="navbar-fixed-top s-header js__header-sticky js__header-overlay">
@@ -67,8 +58,8 @@ s0.parentNode.insertBefore(s1,s0);
                         <!-- Logo -->
                         <div class="s-header-v2__logo">
                             <a href="index.html" class="s-header-v2__logo-link">
-                                <!-- <img class="s-header-v2__logo-img s-header-v2__logo-img--defaul" src="img/logo-navigasi-putih.png" alt="Dublin Logo"> -->
-                                <img class="s-header-v2__logo-img s-header-v2__logo-img--shrink" src="https://ppsmb.ugm.ac.id/dokumen2017/wp-content/uploads/2017/07/LOGO-UGM-HEADER-NAVBAR.png" style="max-width: 100%;" alt="Dublin Logo">
+                                    <img class="s-header-v2__logo-img s-header-v2__logo-img--default" src="https://ppsmb.ugm.ac.id/dokumen2017/wp-content/uploads/2017/07/LOGO-UGM-HEADER-NAVBAR.png" style="max-width: 100%; max-height: auto" alt="PPSMB Logo">
+                                <img class="s-header-v2__logo-img s-header-v2__logo-img--shrink" src="https://ppsmb.ugm.ac.id/dokumen2017/wp-content/uploads/2017/07/LOGO-UGM-HEADER-NAVBAR.png" style="max-width: 100%; max-height: auto" alt="PPSMB Logo">
                             </a>
                         </div>
                         <!-- End Logo -->
@@ -96,14 +87,16 @@ s0.parentNode.insertBefore(s1,s0);
                                 </li>
 
                                 <!-- Materi Atribut Penugasan -->
-                                <li class="s-header-v2__nav-item"><a href="/pilih-hari.html" class="s-header-v2__nav-link s-header-v2__nav-link--dark">Agenda Materi Atribut Penugasan</a></li>
+                                <li class="s-header-v2__nav-item"><a href="#agenda" class="s-header-v2__nav-link s-header-v2__nav-link--dark">Agenda Materi Atribut Penugasan</a></li>
                                 </li>
 
                                 <!-- Galeri -->
-                                <li class="s-header-v2__nav-item">
-                                    <a href="#" class="s-header-v2__nav-link s-header-v2__nav-link--dark">Galeri</a>
-                                </li>
-                                </li>
+                                <li class="s-header-v2__nav-item"><a href="/" class="s-header-v2__nav-link s-header-v2__nav-link--dark -is-active">Galeri</a></li>
+                                <ul class="dropdown-menu s-header-v2__dropdown-menu">
+                                        <li><a href="foto.html" class="s-header-v2__dropdown-menu-link">Foto</a></li>
+                                        <li><a href="video.html" class="s-header-v2__dropdown-menu-link">Video</a></li>
+                                </ul>
+                                    </li>
 
                                 <li class="s-header-v2__nav-item"><a href="contacts.html" class="s-header-v2__nav-link s-header-v2__nav-link--dark">Contacts</a></li>
                             </ul>
@@ -291,17 +284,17 @@ s0.parentNode.insertBefore(s1,s0);
         <!-- Mockup -->
         <div id="js__scroll-to-section" class="container g-padding-y-80--xs g-padding-y-125--xsm">
             <div class="row g-hor-centered-row--md g-row-col--5 g-margin-b-80--xs g-margin-b-100--md">
-                <div class="col-sm-5 g-hor-centered-row__col">
+                <div class="col-sm-7 g-hor-centered-row__col">
                     <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Apa itu </p>
                     <h2 class="g-font-size-32--xs g-font-size-36--sm g-margin-b-25--xs">PPSMB?</h2>
-                    <p class="g-font-size-18--sm">PPSMB (Pelatihan Pembelajar Sukses bagi Mahasiswa Baru) adalah kegiatan resmi orientasi dan pengenalan kampus bagi mahasiswa baru di lingkungan UGM.  
+                    <p class="g-font-weight--400 g-font-size-18--sm">PPSMB (Pelatihan Pembelajar Sukses bagi Mahasiswa Baru) adalah kegiatan resmi orientasi dan pengenalan kampus bagi mahasiswa baru di lingkungan UGM.  
                         <br>
                         PPSMB memiliki 2 tujuan yaitu : <br>
                         1. Mewujudkan kegiatan orientasi dan pengenalan kampus yang berorientasi pada nilai-nilai luhur dan jati diri Universitas; <br>
                         2. Membentuk karakter mahasiswa yang mengedepankan sikap sebagai intelektual yang mengandalkan kecerdasan berpikir, kedewasaan dalam bertutur kata dan bertindak, anti kekerasan, berbudaya, bermartabat, inspiratif, serta menjunjung tinggi nilai-nilai Pancasila.<br></p>
                 </div>
                 <div class="col-sm-1"></div>
-                <div class="col-sm-5 g-hor-centered-row__col">
+                <div class="col-sm-4 g-hor-centered-row__col">
                     <img class="img-responsive" src="img/definisi.png" alt="Mockup Image">
                 </div>
             </div>
@@ -348,8 +341,9 @@ s0.parentNode.insertBefore(s1,s0);
             </div> -->
         </div>
         <!-- End Swiper Wrapper -->
+
         <!-- Plan -->
-        <div class="g-bg-color--sky-light">
+        <div id="agenda" class="g-bg-color--sky-light">
             <div class="container g-padding-y-80--xs g-padding-y-125--xsm">
                 <div class="g-text-center--xs g-margin-b-80--xs">
                     <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">TENTANG</p>
@@ -404,13 +398,35 @@ s0.parentNode.insertBefore(s1,s0);
                                         Korespondensi/Alamat :<br>
                                         Jl. Asem Kranji Blok K-8 Sekip, Bulaksumur, Sleman, Yogyakarta. 55281<br><br>
                                         Pusat Informasi :<br>                                        
-                                        HELP DESK PPSMB : 0813-8142-2016 <br>(hari kerja pukul 08.00 - 16.00 WIB).<br>                                        
+                                        HELP DESK PPSMB : 0823-3836-2002 <br>(hari kerja pukul 08.00 - 16.00 WIB).<br>                                        
                                         HELP DESK Registrasi, UKT, dsb : +62-274-551222 (Hanya Whatsapp)                                        
                                 </div>
                             </div>
                         <div class="col-sm-4 g-margin-b-20--xs g-margin-b-0--md">
-                                <div class="g-font-size-15--xs g-color--white-opacity">
+                                <div class="g-font-size-15--xs g-color--white-opacity g-margin-b-20--xs">
                                 Akun Resmi PPSMB:
+                                </div>
+                                <div class="row g-margin-b-20--xs ">
+                                    <div class="col-sm-4 g-margin-r-1--xs " style="margin-bottom: 10px;">
+                                        <div class="ti-facebook g-color--white-opacity"></div>
+                                    </div>
+                                    <div class="col-sm-4 g-margin-r-1--xs" style="margin-bottom: 10px;">
+                                        <div class="ti-youtube g-color--white-opacity"></div>
+                                    </div>
+                                    <div class="col-sm-4 g-margin-r-1--xs" style="margin-bottom: 10px;">
+                                        <div class="ti-twitter g-color--white-opacity"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-4 g-margin-r-1--xs" style="margin-bottom: 10px;">
+                                        <div class="ti-instagram g-color--white-opacity"></div>
+                                    </div>
+                                    <div class="col-sm-4 g-margin-r-1--xs" style="margin-bottom: 10px;">
+                                        <div class="g-color--white-opacity"><img class="icon-footer" src="img/askfm.png"></div>
+                                    </div>
+                                    <div class="col-sm-4 g-margin-r-1--xs" style="margin-bottom: 10px;">
+                                            <div class="g-color--white-opacity"><img class="icon-footer"  src="img/line.png"></div>
+                                        </div>
                                 </div>
                         </div>
                     </div>
