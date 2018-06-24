@@ -978,6 +978,8 @@ fieldset[disabled] .s-btn {
     z-index: 1;
 }
 
+
+
 .s-promo-block-v6:before {
     position: absolute;
     top: 0;
@@ -1976,9 +1978,19 @@ fieldset[disabled] .s-btn {
 .s-header-v2__logo-img--default {
     display: block;
 }
+
+@media (max-width: 427px){
+.oa-footer{
+    text-align: center;
+}
+}
+
 @media (min-width: 427px){
     .icon-footer{
-        max-width: 20%;
+        max-width: 5.5%;
+    }
+    .oa-footer{
+        text-align: left;
     }
 }
 @media (max-width: 61.9em) {

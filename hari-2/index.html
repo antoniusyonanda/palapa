@@ -16,29 +16,28 @@
         <!-- style css -->
         <link rel="stylesheet" href="/public/css/mt-style.css">
         <!-- Favicon -->
-        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-        <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+        <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
         <!-- font -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <!-- Web Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Montserrat:400,700"
         rel="stylesheet">
         <!-- Vendor Styles -->
-        <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"
+        <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"
         type="text/css" />
-        <link href="../css/animate.css" rel="stylesheet" type="text/css" />
-        <link href="../vendor/themify/themify.css" rel="stylesheet" type="text/css"
+        <link href="/css/animate.css" rel="stylesheet" type="text/css" />
+        <link href="/vendor/themify/themify.css" rel="stylesheet" type="text/css"
         />
-        <link href="../vendor/scrollbar/scrollbar.min.css" rel="stylesheet" type="text/css"
+        <link href="/vendor/scrollbar/scrollbar.min.css" rel="stylesheet" type="text/css"
         />
-        <link href="../vendor/swiper/swiper.min.css" rel="stylesheet" type="text/css"
+        <link href="/vendor/swiper/swiper.min.css" rel="stylesheet" type="text/css"
         />
-        <link href="../vendor/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet"
+        <link href="/vendor/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet"
         type="text/css" />
         <!-- Theme Styles -->
-        <link href="../css/style.css" rel="stylesheet" type="text/css" />
-        <link href="../css/global/global.css" rel="stylesheet" type="text/css"
-        />
+        <link href="/css/style.css" rel="stylesheet" type="text/css" />
+        <link href="/css/global/global.css" rel="stylesheet" type="text/css" />
         <!-- Favicon -->
         <link rel="icon" type="image/x-icon" href="http://example.com/favicon.ico"
         />
@@ -46,6 +45,26 @@
         />
         <link rel="icon" type="image/gif" href="http://example.com/favicon.gif"
         />
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="main.css">-->
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--<link rel="stylesheet" href="css/tambahan.css">-->
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media
+        queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file://
+        -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.2/css/uikit.min.css"
+        />
+        <!-- style acss -->
+        <link rel="stylesheet" href="/public/css/mt-style.css">
     </head>
     
     <body>
@@ -67,21 +86,26 @@
                                 </li>
                                 <li> <a href="/peta/index.html">Peta UGM</a>
                                 </li>
+                                <!-- <li>
+
+					<a href="/peta/index.html">Cek Gugus</a>
+
+				 </li> -->
                                 <li> <a href="/pilih-hari.html">Agenda Materi Atribut Penugasan</a>
                                 </li>
                                 <li> <a href="#">Galeri</a>
                                     <div class="uk-navbar-dropdown">
                                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                                            <li><a href="/foto.html">Foto</a>
+                                            <li><a href="/galeri/dokumentasi.html">Foto</a>
 
                                             </li>
-                                            <li><a href="/video.html">Video</a>
+                                            <li><a href="/galeri/video.html">Video</a>
 
                                             </li>
                                         </ul>
                                     </div>
                                 </li>
-                                <li> <a href="#">Contacs</a>
+                                <li> <a href="#kontak">Kontak</a>
                                 </li>
                             </ul>	<a class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon href="#modal-menu"
                             uk-toggle></a>
@@ -105,15 +129,15 @@
                             </li>
                             <li>	<a href="#">Galeri</a>
                                 <ul class="uk-list uk-list-divider">
-                                    <li><a href="/foto.html">Foto</a>
+                                    <li><a href="../galeri/dokumentasi.html">Foto</a>
 
                                     </li>
-                                    <li><a href="/video.html">Video</a>
+                                    <li><a href="../galeri/video.html">Video</a>
 
                                     </li>
                                 </ul>
                             </li>
-                            <li>	<a href="#">Contacs</a>
+                            <li>	<a href="#kontak">Kontak</a>
                             </li>
                         </ul>
                     </div>
@@ -206,62 +230,88 @@
                             </div>
                         </div>
                         <div class="col-sm-4 g-margin-b-20--xs g-margin-b-0--md">
-                            <div class="g-font-size-15--xs g-color--white-opacity">HELP DESK Mengenai PPSMB :
+                            <div class="g-font-size-15--xs g-color--white-opacity">HELP DESK mengenai PPSMB :
                                 <br>+62-823-38362002
-                                <br>Jl. Asem Kranji Blok K-8 Sekip, Bulaksumur, Sleman, Yogyakarta. 55281
-                                <br>Jam kerja pukul 08.00 - 16.00 WIB.
+                                <br> <a href="https://goo.gl/maps/db4RaashyoN2">                                     
+
+                                    Jl. Asem Kranji Blok K-8 Sekip, Bulaksumur, Sleman, Yogyakarta 55281<br>
+
+                                    </a> Jam kerja pukul 08.00 - 16.00
+                                WIB.
                                 <br>
-                                <br>HELP DESK Mengenai Registrasi dan Administrasi Akademik lainnya:
+                                <br>HELP DESK mengenai Registrasi dan Administrasi Akademik lainnya:
                                 <br>+62-274-551222
-                                <br>Jl. Pancasila Boulevard, Bulaksumur, Jogja 55281
-                                <br>jam kerja pukul 08.00 - 16.00 WIB.
+                                <br> <a href="https://goo.gl/maps/Aqtu5seSfgH2">
+
+                                    Jl. Pancasila Boulevard,  Bulaksumur, Sleman,  Yogyakarta 55281<br>
+
+                                    </a>Jam kerja pukul 08.00 - 16.00
+                                WIB.
                                 <br>
                                 <br>
                             </div>
                         </div>
                         <div class="col-sm-4 g-margin-b-20--xs g-margin-b-0--md">
                             <div class="g-font-size-15--xs g-color--white-opacity g-margin-b-20--xs">Akun Resmi PPSMB:</div>
-                            <div class="row g-margin-b-20--xs ">
-                                <div class="col-sm-4 g-margin-r-1--xs " style="margin-bottom: 10px;"> <a href="https://facebook.com/PPSMB-Palapa-UGM-325374494259950/">
+                            <div class="col-sm-12 g-margin-b-20--xs " style="margin-bottom: 10px;"> <a href="https://facebook.com/PPSMB-Palapa-UGM-325374494259950/">
 
-                                        <div class="ti-facebook g-color--white-opacity">
+                                        <div class="oa-footer ti-facebook g-color--white-opacity">
+
+                                            PPSMB UGM
 
                                         </div>
 
                                     </a>
-                                </div>
-                                <div class="col-sm-4 g-margin-r-1--xs" style="margin-bottom: 10px;"> <a href="https://www.youtube.com/user/ppsmbpalapa">
-
-                                        <div class="ti-youtube g-color--white-opacity"></div>
-
-                                    </a>
-                                </div>
-                                <div class="col-sm-4 g-margin-r-1--xs" style="margin-bottom: 10px;"> <a href="https://twitter.com/ppsmb_ugm">
-
-                                        <div  class="ti-twitter g-color--white-opacity"></div>
-
-                                    </a>
-                                </div>
                             </div>
-                            <div class="row">
-                                <div class="col-sm-4 g-margin-r-1--xs" style="margin-bottom: 10px;"> <a href="https://www.instagram.com/ppsmb_ugm/">
+                            <div class="col-sm-12 g-margin-b-20--xs " style="margin-bottom: 10px;"> <a href="https://www.youtube.com/user/ppsmbpalapa">
 
-                                        <div  class="ti-instagram g-color--white-opacity"></div>
+                                        <div class="oa-footer ti-youtube g-color--white-opacity">
 
-                                    </a>
-                                </div>
-                                <div class="col-sm-4 g-margin-r-1--xs" style="margin-bottom: 10px;"> <a href="https://ask.fm/ppsmb_ugm">
+                                            PPSMB UGM
 
-                                        <div  class="g-color--white-opacity"><img class="icon-footer" src="../img/askfm.png"></div>
+                                        </div>
 
                                     </a>
-                                </div>
-                                <div class="col-sm-4 g-margin-r-1--xs" style="margin-bottom: 10px;"> <a href="http://line.me/ti/p/~@ppsmb_ugm">
+                            </div>
+                            <div class="col-sm-12 g-margin-b-20--xs " style="margin-bottom: 10px;"> <a href="https://twitter.com/ppsmb_ugm">
 
-                                        <div  class="g-color--white-opacity"><img class="icon-footer"  src="../img/line.png"></div>
+                                        <div  class="oa-footer ti-twitter g-color--white-opacity">
+
+                                            @ppsmb_ugm
+
+                                        </div>
 
                                     </a>
-                                </div>
+                            </div>
+                            <div class="col-sm-12 g-margin-b-20--xs " style="margin-bottom: 10px;"> <a href="https://www.instagram.com/ppsmb_ugm/">
+
+                                        <div  class="oa-footer ti-instagram g-color--white-opacity">
+
+                                            @ppsmb_ugm
+
+                                        </div>
+
+                                    </a>
+                            </div>
+                            <div class="col-sm-12 g-margin-b-20--xs " style="margin-bottom: 10px;"> <a href="https://ask.fm/ppsmb_ugm">
+
+                                        <div  class="oa-footer g-color--white-opacity"><img class="icon-footer" src="/img/askfm.png">
+
+                                            @ppsmb_ugm
+
+                                        </div>
+
+                                    </a>
+                            </div>
+                            <div class="col-sm-12 g-margin-r-1--xs" style="margin-bottom: 10px;"> <a href="http://line.me/ti/p/~@ppsmb_ugm">
+
+                                        <div  class="oa-footer g-color--white-opacity"><img class="icon-footer"  src="/img/line.png">
+
+                                         @ppsmb_ugm
+
+                                        </div>
+
+                                    </a>
                             </div>
                         </div>
                     </div>
@@ -273,7 +323,7 @@
                 <div class="row">
                     <div class="col-xs-6"> <a href="index.html">
 
-                        <img class="g-width-100--xs g-height-auto--xs" src="../img/logo-navigasi.png" alt="PPSMB UGM 2018">
+                        <img class="g-width-200--xs g-height-auto--xs" src="/img/logo-navigasi.png" alt="PPSMB UGM 2018">
 
                     </a>
                     </div>
