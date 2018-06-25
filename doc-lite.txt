@@ -4,3 +4,5 @@ keterangan partials:
 - navbar : navigasi atas
 - head : partial head agar cepat
 - breadcrumb-2 : breadcrumb section lv 2 untuk ppsm universitas
+
+##kalau mau embed folder di materi cukup input id folder saja
