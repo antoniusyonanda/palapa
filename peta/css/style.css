@@ -1,6 +1,6 @@
 html,
 body {
-  background: linear-gradient(to bottom, #e77e61, #eda460);
+  background: linear-gradient(to bottom, #10418e , #e1dc15 );
   background: -webkit-linear-gradient(to bottom, #e77e61, #eda460);
   background-repeat: no-repeat;
   height: auto;
@@ -108,7 +108,7 @@ img.sekre {
   margin-right: 4px;
 }
 .popover .popover-title {
-  background-color: #e16160;
+  background-color: #10418e ;
   color: white;
 }
 .popover .popover-content img {

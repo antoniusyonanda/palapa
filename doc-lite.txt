@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-keterangan partials:
-- breadcrumb-1 : untuk breadcrumb lv 1
-- menu-hari : menu atribut, materi, penugasan pada hari
-- navbar : navigasi atas
-- head : partial head agar cepat
-- breadcrumb-2 : breadcrumb section lv 2 untuk ppsm universitas
-=======
 keterangan partials:
 - breadcrumb-1 : untuk breadcrumb lv 1
 - menu-hari : menu atribut, materi, penugasan pada hari
@@ -14,4 +6,3 @@ keterangan partials:
 - breadcrumb-2 : breadcrumb section lv 2 untuk ppsm universitas
 
 ##kalau mau embed folder di materi cukup input id folder saja
->>>>>>> 969e0a38de8bd729c7a1731e978849ef14f9cb54
