@@ -1,2 +1,10 @@
 /src/node_modules
 /node_modules
+<<<<<<< HEAD
+=======
+/main.js
+/package.json
+/package-lock.json
+.cfignore
+manifest.yml
+>>>>>>> update merapikanm
