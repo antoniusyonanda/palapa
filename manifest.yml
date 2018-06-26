@@ -1,0 +1,3 @@
+applications:
+- name: web-test
+  memory: 78M
