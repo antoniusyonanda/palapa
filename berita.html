@@ -2,6 +2,7 @@
 <html>
     
     <head>
+        <meta http-equiv="Pragma" content="no-cache">
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>PPSMB PALAPA 2018</title>
@@ -152,7 +153,18 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.6/js/uikit.min.js"></script>
         <!--==========F OOTER==========-->
         <footer id="kontak" class="g-bg-color--dark">
+            <div class="modal hide fade" id="myModal">
+                <div class="modal-header"> <a class="close" data-dismiss="modal">×</a>
+                     <h3>Modal header</h3>
+                </div>
+                <div class="modal-body">
+                    <p>One fine body…</p>
+                </div>
+                <div class="modal-footer"> <a href="#" class="btn">Close</a> <a href="#" class="btn btn-primary">Save changes</a>
+                </div>
+            </div>
             <!-- Links -->
+            <div id="myTypingText"></div>
             <div class="g-hor-divider__dashed--white-opacity-lightest">
                 <div class="container g-padding-y-80--xs">
                     <div class="row">
@@ -190,7 +202,7 @@
                             <div class="g-font-size-15--xs g-color--white-opacity g-margin-b-20--xs">Akun Resmi PPSMB:</div>
                             <div class="col-sm-12 g-margin-b-20--xs " style="margin-bottom: 10px;"> <a href="https://facebook.com/PPSMB-Palapa-UGM-325374494259950/">
 
-                                        <div class="oa-footer ti-facebook g-color--white-opacity">
+                                        <div class="oa-footer g-color--white-opacity"><img class="icon-footer" src="/img/facebook.png">
 
                                             PPSMB UGM
 
@@ -200,7 +212,7 @@
                             </div>
                             <div class="col-sm-12 g-margin-b-20--xs " style="margin-bottom: 10px;"> <a href="https://www.youtube.com/user/ppsmbpalapa">
 
-                                        <div class="oa-footer ti-youtube g-color--white-opacity">
+                                        <div class="oa-footer g-color--white-opacity"><img class="icon-footer" src="/img/youtube.png">
 
                                             PPSMB UGM
 
@@ -210,7 +222,7 @@
                             </div>
                             <div class="col-sm-12 g-margin-b-20--xs " style="margin-bottom: 10px;"> <a href="https://twitter.com/ppsmb_ugm">
 
-                                        <div  class="oa-footer ti-twitter g-color--white-opacity">
+                                        <div  class="oa-footer g-color--white-opacity"><img class="icon-footer" src="/img/twitter.png">
 
                                             @ppsmb_ugm
 
@@ -220,7 +232,7 @@
                             </div>
                             <div class="col-sm-12 g-margin-b-20--xs " style="margin-bottom: 10px;"> <a href="https://www.instagram.com/ppsmb_ugm/">
 
-                                        <div  class="oa-footer ti-instagram g-color--white-opacity">
+                                        <div  class="oa-footer g-color--white-opacity"><img class="icon-footer" src="/img/instagram.png">
 
                                             @ppsmb_ugm
 
@@ -263,11 +275,16 @@
                     </a>
                     </div>
                     <div class="col-xs-6 g-text-right--xs">
-                        <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light">&copy; Tim IT PPSMB PALAPA 2018</p>
+                        <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light">&copy; 2018 Tim IT PPSMB UGM 2018 RESERVED</p>
                     </div>
                 </div>
             </div>
             <!-- End Copyright -->
+            <script type="text/javascript">
+                $(window).on('load',function(){
+                        $('#myModal').modal('show');
+                    });
+            </script>
             <!--Start of Tawk.to Script-->
             <script type="text/javascript">
                 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -282,7 +299,6 @@
             </script>
             <!--End of Tawk.to Script-->
         </footer>
-        <!--==========E ND FOOTER==========-->
         <!-- Back To Top --> <a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a>
     </body>
 
