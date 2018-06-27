@@ -22,6 +22,7 @@ body {
   letter-spacing: 30px;
   word-spacing: 50%;
   margin-bottom: 50px;
+  font-weight: 700;
 }
 @media (max-width: 480px) {
   .title {
