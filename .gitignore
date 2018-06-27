@@ -1,2 +1,11 @@
 /src/node_modules
 /node_modules
+/main.js
+/package.json
+/package-lock.json
+.cfignore
+<<<<<<< HEAD
+manifest.yml
+=======
+manifest.yml
+>>>>>>> 2fabc9302605d1847c13ccad5073e5893940c05c
