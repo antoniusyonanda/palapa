@@ -9,6 +9,6 @@ gulp.task('html', function () {
         .pipe(gulp.dest(__dirname + '/../'));
 });
 
-gulp.watch([__dirname + '/**/*.html'], ['html']);
+//gulp.watch([__dirname + '/**/*.html'], ['html']);
 
 gulp.task('default', ['html']);
