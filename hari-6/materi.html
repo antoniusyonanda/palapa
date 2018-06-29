@@ -38,6 +38,8 @@
         <!-- Theme Styles -->
         <link href="../css/global/global.css" rel="stylesheet" type="text/css"
         />
+        <!-- UIkit JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.6/js/uikit.min.js"></script>
         <!-- Favicon -->
         <link rel="icon" type="image/x-icon" href="http://example.com/favicon.ico"
         />
@@ -154,7 +156,6 @@
         <!-- title -->
         <div class="uk-container" style="margin-top: 42px;">
              <h3>materi hari ke-6</h3>
-
         </div>
         <!-- embed document -->
         <div class="uk-flex uk-flex-center" style="margin-top: 42px; margin-bottom: 42px;">
@@ -162,18 +163,25 @@
             width="640" height="480"></iframe>
         </div>
         <!-- footer -->
-        <!--==========F OOTER==========-->
-        <footer id="kontak" class="g-bg-color--dark">
-            <div class="modal hide fade" id="myModal">
-                <div class="modal-header"> <a class="close" data-dismiss="modal">×</a>
-                     <h3>Modal header</h3>
+        <div id="pengumuman" uk-modal>
+            <div class="uk-modal-dialog">
+                <button class="uk-modal-close-default" type="button" uk-close></button>
+                <div class="uk-modal-header">
+                     <h2 class="uk-modal-title">Pengumuman</h2>
                 </div>
-                <div class="modal-body">
-                    <p>One fine body…</p>
-                </div>
-                <div class="modal-footer"> <a href="#" class="btn">Close</a> <a href="#" class="btn btn-primary">Save changes</a>
+                <div class="uk-modal-body">Ini adalah pengumuman</div>
+                <div class="uk-modal-footer uk-text-right">
+                    <button class="uk-button uk-button-default uk-modal-close" type="button">Tutup</button>
                 </div>
             </div>
+        </div>
+        <script type="text/javascript">
+            if(document.readyState){
+                  UIkit.modal(document.getElementById('pengumuman')).show();
+               }
+        </script>
+        <!--==========F OOTER==========-->
+        <footer id="kontak" class="g-bg-color--dark">
             <!-- Links -->
             <div id="myTypingText"></div>
             <div class="g-hor-divider__dashed--white-opacity-lightest">
@@ -189,87 +197,79 @@
                         </div>
                         <div class="col-sm-4 g-margin-b-20--xs g-margin-b-0--md">
                             <div class="g-font-size-15--xs g-color--white-opacity">HELP DESK mengenai PPSMB :
-                                <br>+62-823-38362002
-                                <br> <a href="https://goo.gl/maps/db4RaashyoN2">                                     
+                                <br>+62-823-38362002 (Call & SMS)
+                                <br> <a href="https://goo.gl/maps/db4RaashyoN2" target="_blank">
 
-                                    Jl. Asem Kranji Blok K-8 Sekip, Bulaksumur, Sleman, Yogyakarta 55281<br>
+                            Jl. Asem Kranji Blok K-8 Sekip, Bulaksumur, Sleman, Yogyakarta 55281 (PKM Center)
 
-                                    </a> Jam kerja pukul 08.00 - 16.00
-                                WIB.
-                                <br>
-                                <br>HELP DESK mengenai Registrasi dan Administrasi Akademik lainnya:
-                                <br>+62-274-551222
-                                <br> <a href="https://goo.gl/maps/Aqtu5seSfgH2">
+                            <br>
 
-                                    Jl. Pancasila Boulevard,  Bulaksumur, Sleman,  Yogyakarta 55281<br>
-
-                                    </a>Jam kerja pukul 08.00 - 16.00
-                                WIB.
-                                <br>
+                        </a>Jam kerja pukul 08.00 - 16.00 WIB.
                                 <br>
                             </div>
                         </div>
                         <div class="col-sm-4 g-margin-b-20--xs g-margin-b-0--md">
-                            <div class="g-font-size-15--xs g-color--white-opacity g-margin-b-20--xs">Akun Resmi PPSMB:</div>
-                            <div class="col-sm-12 g-margin-b-20--xs " style="margin-bottom: 10px;"> <a href="https://facebook.com/PPSMB-Palapa-UGM-325374494259950/">
+                            <div class="g-font-size-15--xs g-color--white-opacity g-margin-b-20--xs">Akun Resmi PPSMB 2018:</div>
+                            <div class="col-sm-12 g-margin-b-20--xs "
+                            style="margin-bottom: 10px;"> <a href="https://facebook.com/PPSMB-Palapa-UGM-325374494259950/">
 
-                                        <div class="oa-footer g-color--white-opacity"><img class="icon-footer" src="/img/facebook.png">
+                            <div class="oa-footer g-color--white-opacity">
 
-                                            PPSMB UGM
+                                <img class="icon-footer" src="/img/facebook.png"> PPSMB UGM
 
-                                        </div>
+                            </div>
 
-                                    </a>
+                        </a>
                             </div>
                             <div class="col-sm-12 g-margin-b-20--xs " style="margin-bottom: 10px;"> <a href="https://www.youtube.com/user/ppsmbpalapa">
 
-                                        <div class="oa-footer g-color--white-opacity"><img class="icon-footer" src="/img/youtube.png">
+                            <div class="oa-footer g-color--white-opacity">
 
-                                            PPSMB UGM
+                                <img class="icon-footer" src="/img/youtube.png"> PPSMB UGM
 
-                                        </div>
+                            </div>
 
-                                    </a>
+                        </a>
                             </div>
                             <div class="col-sm-12 g-margin-b-20--xs " style="margin-bottom: 10px;"> <a href="https://twitter.com/ppsmb_ugm">
 
-                                        <div  class="oa-footer g-color--white-opacity"><img class="icon-footer" src="/img/twitter.png">
+                            <div class="oa-footer g-color--white-opacity">
 
-                                            @ppsmb_ugm
+                                <img class="icon-footer" src="/img/twitter.png"> @ppsmb_ugm
 
-                                        </div>
+                            </div>
 
-                                    </a>
+                        </a>
                             </div>
                             <div class="col-sm-12 g-margin-b-20--xs " style="margin-bottom: 10px;"> <a href="https://www.instagram.com/ppsmb_ugm/">
 
-                                        <div  class="oa-footer g-color--white-opacity"><img class="icon-footer" src="/img/instagram.png">
+                            <div class="oa-footer g-color--white-opacity">
 
-                                            @ppsmb_ugm
+                                <img class="icon-footer" src="/img/instagram.png"> @ppsmb_ugm
 
-                                        </div>
+                            </div>
 
-                                    </a>
+                        </a>
                             </div>
                             <div class="col-sm-12 g-margin-b-20--xs " style="margin-bottom: 10px;"> <a href="https://ask.fm/ppsmb_ugm">
 
-                                        <div  class="oa-footer g-color--white-opacity"><img class="icon-footer" src="/img/askfm.png">
+                            <div class="oa-footer g-color--white-opacity">
 
-                                            @ppsmb_ugm
+                                <img class="icon-footer" src="/img/askfm.png"> @ppsmb_ugm
 
-                                        </div>
+                            </div>
 
-                                    </a>
+                        </a>
                             </div>
                             <div class="col-sm-12 g-margin-r-1--xs" style="margin-bottom: 10px;"> <a href="http://line.me/ti/p/~@ppsmb_ugm">
 
-                                        <div  class="oa-footer g-color--white-opacity"><img class="icon-footer"  src="/img/line.png">
+                            <div class="oa-footer g-color--white-opacity">
 
-                                         @ppsmb_ugm
+                                <img class="icon-footer" src="/img/line.png"> @ppsmb_ugm
 
-                                        </div>
+                            </div>
 
-                                    </a>
+                        </a>
                             </div>
                         </div>
                     </div>
@@ -279,33 +279,23 @@
             <!-- Copyright -->
             <div class="container g-padding-y-50--xs">
                 <div class="row">
-                    <div class="col-xs-6"> <a href="index.html">
-
-                        <img class="g-width-200--xs g-height-auto--xs" src="/img/logo-navigasi.png" alt="PPSMB UGM 2018">
-
-                    </a>
-                    </div>
+                    <div class="col-xs-6"></div>
                     <div class="col-xs-6 g-text-right--xs">
                         <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light">&copy; 2018 Tim IT PPSMB UGM 2018 RESERVED</p>
                     </div>
                 </div>
             </div>
             <!-- End Copyright -->
-            <script type="text/javascript">
-                $(window).on('load',function(){
-                        $('#myModal').modal('show');
-                    });
-            </script>
             <!--Start of Tawk.to Script-->
             <script type="text/javascript">
-                var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-                (function(){
-                var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-                s1.async=true;
-                s1.src='https://embed.tawk.to/57721d50def120b32d63b646/default';
-                s1.charset='UTF-8';
-                s1.setAttribute('crossorigin','*');
-                s0.parentNode.insertBefore(s1,s0);
+                var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+                (function () {
+                    var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+                    s1.async = true;
+                    s1.src = 'https://embed.tawk.to/57721d50def120b32d63b646/default';
+                    s1.charset = 'UTF-8';
+                    s1.setAttribute('crossorigin', '*');
+                    s0.parentNode.insertBefore(s1, s0);
                 })();
             </script>
             <!--End of Tawk.to Script-->
