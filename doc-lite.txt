@@ -1,0 +1,13 @@
+keterangan partials:
+- breadcrumb-1 : untuk breadcrumb lv 1
+- menu-hari : menu atribut, materi, penugasan pada hari
+- navbar : navigasi atas
+- head : partial head agar cepat
+- breadcrumb-2 : breadcrumb section lv 2 untuk ppsm universitas
+- head.html : untuk file yang ada di root
+- head-2 : untuk lv 2 -> di root folder hari, peta, berita
+- head-3 : untuk folder fakultas (index)
+- head-4 : untuk folder didalam per fakultas
+- head-5 : untuk folder didalam sub fakultas
+
+##kalau mau embed folder di materi cukup input id folder saja
