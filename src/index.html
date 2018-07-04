@@ -169,40 +169,40 @@
                 <article class="s-promo-block-v9 g-bg-position--center swiper-slide" style="background: url('img/berita.png');">
                     <div class="g-text-center--xs g-padding-x-15--xs g-padding-x-30--lg g-padding-y-50--xs g-margin-t-120--xs">
                         <div class="">
-                            <h3 class="g-font-size-16--xs g-color--white g-margin-b-5--xs">Info #4</h3>
-                            <p class="g-color--white">Syarat Kelulusan PPSMB</p>
+                            <h3 class="g-font-size-19--xs g-color--white g-margin-b-5--xs">Info #4</h3>
+                            <p class="g-color--white g-font-size-32--xs g-font-weight--600">Syarat Kelulusan PPSMB</p>
                         </div>
-                        <a href="berita/info_4.html" class="text-uppercase s-btn s-btn--xs s-btn--white-brd g-radius--50">Read More</a>
+                        <a href="berita/info_4.html" class="text-uppercase s-btn s-btn--xs s-btn--white-brd g-radius--50">Selengkapnya</a>
                     </div>
                 </article>
 
                 <article class="s-promo-block-v6 g-bg-position--center swiper-slide" style="background: url('img/berita.png');">
                     <div class="g-text-center--xs g-padding-x-15--xs g-padding-x-30--lg g-padding-y-50--xs g-margin-t-120--xs">
                         <div class="">
-                            <h3 class="g-font-size-16--xs g-color--white g-margin-b-5--xs">Info #3</h3>
-                            <p class="g-color--white">Mekanisme Pindah Jurusan</p>
+                            <h3 class="g-font-size-19--xs g-color--white g-margin-b-5--xs">Info #3</h3>
+                            <p class="g-color--white g-font-size-32--xs g-font-weight--600">Mekanisme Pindah Jurusan</p>
                         </div>
-                        <a href="berita/info_3.html" class="text-uppercase s-btn s-btn--xs s-btn--white-brd g-radius--50">Read More</a>
+                        <a href="berita/info_3.html" class="text-uppercase s-btn s-btn--xs s-btn--white-brd g-radius--50">Selengkapnya</a>
                     </div>
                 </article>
 
                 <article class="s-promo-block-v10 g-bg-position--center swiper-slide" style="background: url('img/berita.png');">
                     <div class="g-text-center--xs g-padding-x-15--xs g-padding-x-30--lg g-padding-y-50--xs g-margin-t-120--xs">
                         <div class="">
-                            <h3 class="g-font-size-16--xs g-color--white g-margin-b-5--xs">Info #2</h3>
-                            <p class="g-color--white">Berita SOP </p>
+                            <h3 class="g-font-size-19--xs g-color--white g-margin-b-5--xs">Info #2</h3>
+                            <p class="g-color--white g-font-size-32--xs g-font-weight--600">SOP </p>
                         </div>
-                        <a href="berita/info_2.html" class="text-uppercase s-btn s-btn--xs s-btn--white-brd g-radius--50">Read More</a>
+                        <a href="berita/info_2.html" class="text-uppercase s-btn s-btn--xs s-btn--white-brd g-radius--50">Selengkapnya</a>
                     </div>
                 </article>
             
                 <article class="s-promo-block-v8 g-bg-position--center swiper-slide" style="background: url('img/berita.png');">
                     <div class="g-text-center--xs g-padding-x-15--xs g-padding-x-30--lg g-padding-y-50--xs g-margin-t-120--xs">
                         <div class="">
-                            <h3 class="g-font-size-16--xs g-color--white g-margin-b-5--xs">Info #1</h3>
-                            <p class="g-color--white">Informasi Penting</p>
+                            <h3 class="g-font-size-19--xs g-color--white g-margin-b-5--xs">Info #1</h3>
+                            <p class="g-color--white g-font-size-32--xs g-font-weight--600">Informasi Penting</p>
                         </div>
-                        <a href="berita/info_1.html" class="text-uppercase s-btn s-btn--xs s-btn--white-brd g-radius--50">Read More</a>
+                        <a href="berita/info_1.html" class="text-uppercase s-btn s-btn--xs s-btn--white-brd g-radius--50">Selengkapnya</a>
                     </div>
                 </article>
             </div>
@@ -226,8 +226,7 @@
                 <h2 class="text-uppercase g-font-size-40--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Pengertian PPSMB</h2>
                 <p class="g-font-weight--400 g-font-size-18--sm" style="color: black">Pelatihan Pembelajar Sukses bagi Mahasiswa Baru yang selanjutnya disingkat PPSMB adalah kegiatan resmi orientasi
                     dan pengenalan kampus bagi mahasiswa baru di lingkungan UGM.
-                    <br> PPSMB memiliki 2 tujuan yaitu :
-                    <br>
+                    <br> PPSMB memiliki 2 tujuan yaitu:
                         <ol>
                             <li class="g-font-weight--400 g-font-size-18--sm" style="color: black">
                                 Mewujudkan kegiatan orientasi dan pengenalan kampus yang berorientasi pada nilai-nilai luhur dan
@@ -342,6 +341,18 @@
 
     <!--========== FOOTER ==========-->
     <partial src="footer.html"></partial>
+    <div id="pengumuman" class="uk-flex-top" uk-modal>
+            <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+                <button class="uk-modal-close-outside" type="button" uk-close></button>
+                <img src="img/perhatian.png" alt="">
+            </div>
+    </div>
+    
+    <script type="text/javascript">
+       if(document.readyState){
+          UIkit.modal(document.getElementById('pengumuman')).show();
+       }
+    </script>
     
     <!-- Running Text -->
     <!-- <marquee behavior="scroll" direction="left">
