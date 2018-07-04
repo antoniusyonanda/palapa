@@ -1,3 +1,5 @@
+ErrorDocument 404 /error.html
+ErrorDocument 403 /error.html
 ##Block bad bots
 RewriteEngine On 
 RewriteCond %{HTTP_USER_AGENT} ^BlackWidow [OR]
