@@ -1,6 +1,22 @@
-ErrorDocument 404 /error.html
-ErrorDocument 403 /error.html
+##ErrorDocument 404 /error.html
+##ErrorDocument 403 /error.html
 ##Block bad bots
+
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg A5184000
+ExpiresByType image/jpeg A5184000
+ExpiresByType image/gif A5184000
+ExpiresByType image/png A5184000
+ExpiresByType text/css A5184000
+ExpiresByType application/pdf A5184000
+ExpiresByType text/x-javascript A5184000
+ExpiresByType application/x-shockwave-flash A5184000
+ExpiresByType image/x-icon A5184000
+ExpiresDefault A0
+</IfModule>
+
+
 RewriteEngine On 
 RewriteCond %{HTTP_USER_AGENT} ^BlackWidow [OR]
 RewriteCond %{HTTP_USER_AGENT} ^Bot\ mailto:craftbot@yahoo.com [OR]
