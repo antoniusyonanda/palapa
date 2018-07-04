@@ -69,3 +69,10 @@
         max-width: 60%;
     }
 }
+
+.navbar-fixed-top {
+    position: fixed !important;
+    right: 0 !important;
+    left: 0 !important;
+    z-index: 1010 !important;
+}

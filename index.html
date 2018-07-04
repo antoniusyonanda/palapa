@@ -50,7 +50,7 @@
         <!--Start of Tawk.to Script-->
         <!--End of Tawk.to Script-->
         <!--==========H EADER==========-->
-        <header class="">
+        <header class="navbar-fixed-top s-header js__header-sticky js__header-overlay">
             <!-- Navbar -->
             <!-- nav -->
             <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; top: 5">
@@ -64,7 +64,7 @@
 					</a>
                             </div>
                             <div class="uk-navbar-right">
-                                <ul class="uk-navbar-nav uk-visible@s" style="color: white;">
+                                <ul class="uk-navbar-nav uk-visible@l" style="color: white;">
                                     <li>	<a href="index.html">Beranda</a>
                                     </li>
                                     <li>	<a href="peta/index.html">Peta UGM</a>
@@ -85,7 +85,7 @@
                                     </li>
                                     <li>	<a href="#kontak" uk-scroll>Kontak</a>
                                     </li>
-                                </ul>	<a class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon href="#modal-menu"
+                                </ul>	<a class="uk-navbar-toggle uk-hidden@l" uk-navbar-toggle-icon href="#modal-menu"
                                 uk-toggle></a>
                             </div>
                         </div>
@@ -238,7 +238,7 @@
         <!-- Berita -->
         <div class="container-fluid g-padding-y-80--xs g-padding-y-125--sm">
             <div class="g-text-center--xs g-margin-b-80--xs">
-                <p class="text-uppercase g-font-size-40--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Berita Terkini</p>
+                <p class="text-uppercase g-font-size-40--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Informasi & Berita Terkini</p>
                 <p></p>
             </div>
             <!-- Swiper -->
@@ -324,7 +324,8 @@
                             <p class="g-font-weight--400 g-font-size-18--sm" style="color: black">Pelatihan Pembelajar Sukses bagi Mahasiswa Baru yang selanjutnya disingkat
                                 PPSMB adalah kegiatan resmi orientasi dan pengenalan kampus bagi mahasiswa
                                 baru di lingkungan UGM.
-                                <br>PPSMB memiliki 2 tujuan yaitu :
+                                <div class="g-font-weight--400 g-font-size-18--sm"
+                                style="color: black">Kegiatan PPSMB UGM secara umum memiliki 2 tujuan, yaitu:</div>
                                 <ol>
                                     <li class="g-font-weight--400 g-font-size-18--sm" style="color: black">Mewujudkan kegiatan orientasi dan pengenalan kampus yang berorientasi
                                         pada nilai-nilai luhur dan jati diri Universitas;</li>
@@ -366,34 +367,28 @@
         <!-- Video Sambutan -->
         <div class="s-promo-block-v7 g-bg-position--center g-bg-color--dark-light"
         style="background: url('img/1920x1080/05.jpg') no-repeat;">
-            <div class="g-container--sm g-padding-y-80--xs g-padding-y-125--xsm">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="g-text-center--xs g-margin-b-60--xs">
-                            <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--white-opacity g-letter-spacing--2 g-margin-b-25--xs"></p>
-                             <h2 class="g-font-size-32--xs g-font-size-36--md g-color--white">HYMNE <br> GADJAH MADA</h2>
-                            <div class="embed-responsive embed-responsive-16by9" style="margin-top: 55px">
-                                <iframe src=" https://drive.google.com/file/d/1aGe8UinaIfYXgAi4NCkyWNYZEwyWq2Y_/preview"
-                                allowfullscreen></iframe>
-                            </div>
+            <div class="container g-padding-y-80--xs g-padding-y-125--xsm">
+                <div class="grid-normal" uk-grid>
+                    <div class="col-normal uk-width-1-2@l uk-width-1-1@s" style="padding-left: 12px; padding-left: 12px;">
+                         <h2 class="g-font-size-32--xs g-font-size-36--md g-color--white">HYMNE <br> GADJAH MADA</h2>
+                        <div class="embed-responsive embed-responsive-16by9" style="margin-top: 55px">
+                            <iframe src=" https://drive.google.com/file/d/1aGe8UinaIfYXgAi4NCkyWNYZEwyWq2Y_/preview"
+                            allowfullscreen></iframe>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="g-text-center--xs g-margin-b-60--xs">
-                            <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--white-opacity g-letter-spacing--2 g-margin-b-25--xs"></p>
-                             <h2 class="g-font-size-32--xs g-font-size-36--md g-color--white">PROFIL <br> UGM</h2>
-                            <div class="embed-responsive embed-responsive-16by9" style="margin-top: 55px">
-                                <iframe src="https://drive.google.com/file/d/1AakY8D1i6e4mLTFcJ5e0LRQZpS-OU7oU/preview"
-                                allowfullscreen></iframe>
-                            </div>
+                    <div class="col-normal uk-width-1-2@l uk-width-1-1@s" style="padding-left: 12px; padding-left: 12px;">
+                         <h2 class="g-font-size-32--xs g-font-size-36--md g-color--white">PROFIL <br> UGM</h2>
+                        <div class="embed-responsive embed-responsive-16by9" style="margin-top: 55px">
+                            <iframe src="https://drive.google.com/file/d/1AakY8D1i6e4mLTFcJ5e0LRQZpS-OU7oU/preview"
+                            allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="g-text-center--xs g-margin-b-60--xs">
+                <div class="row uk-flex uk-flex-center" style="margin-top: 42px;">
+                    <div class="uk-width-2-3@m uk-width-1-1@s">
+                        <div class="uk-width-1-1">
                             <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--white-opacity g-letter-spacing--2 g-margin-b-25--xs"></p>
-                             <h2 class="g-font-size-32--xs g-font-size-36--md g-color--white">SAMBUTAN REKTOR</h2>
+                             <h2 class="g-font-size-32--xs g-font-size-36--md g-color--white uk-text-center">SAMBUTAN REKTOR</h2>
                             <div class="embed-responsive embed-responsive-16by9">
                                 <iframe src="https://drive.google.com/file/d/1KXX3ch4zgku6rHA-UZHjavpErnZhUvoX/preview"
                                 allowfullscreen></iframe>
@@ -467,9 +462,10 @@
                         </div>
                         <div class="col-sm-5 g-margin-b-20--xs g-margin-b-0--md">
                             <div class="g-font-size-15--xs g-color--white-opacity">
-                                 <h5 style="color: white"><u>Korespondensi/Alamat:</u></h5>Ketua Pelaksana PPSMB UGM 2018.
-                                <br>c.q. Kasubdit. Pengembangan Karakter Mahasiswa,
+                                 <h5 style="color: white"><u>Korespondensi/Alamat:</u></h5>
+                                <br>Kasubdit. Pengembangan Karakter Mahasiswa,
                                 <br>Direktorat Kemahasiswaan Universitas Gadjah Mada
+                                <br>q.q. Ketua Pelaksana PPSMB UGM 2018
                                 <br>Jl. Asem Kranji Blok K-8 Sekip, Bulaksumur, Sleman, Yogyakarta. 55281
                                 <br>
                                 <br>

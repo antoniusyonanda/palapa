@@ -3,7 +3,18 @@
 
 <partial src="head.html" title="PPSMB PALAPA 2018"></partial>
 
-<partial src="modal-pengumuman.html"></partial>
+<div id="pengumuman" class="uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+            <button class="uk-modal-close-outside" type="button" uk-close></button>
+            <img src="/img/perhatian.png" alt="">
+        </div>
+</div>
+
+<script type="text/javascript">
+   if(document.readyState){
+      UIkit.modal(document.getElementById('pengumuman')).show();
+   }
+</script>
 
 <body>
    <partial src="navbar.html"></partial>
@@ -18,7 +29,7 @@
    <!-- row day -->
    <div class="uk-container uk-flex uk-flex-center uk-width-1-1 grid-normal" style="margin-top: 42px;" uk-grid>
       <!-- day card -->
-      <div class="uk-card uk-card-default uk-width-1-1@s uk-width-1-4@m card-margin-1 col-normal">
+      <div class="uk-card uk-card-default uk-width-1-2@s uk-width-1-4@m card-margin-1 col-normal">
          <div class="uk-card-media-top">
             <img src="public/img/nduwur.png" alt="">
          </div>
@@ -39,7 +50,7 @@
       <!-- end card -->
 
       <!-- day card -->
-      <div class="uk-card uk-card-default uk-width-1-1@s  uk-width-1-4@m card-margin-1 col-normal">
+      <div class="uk-card uk-card-default uk-width-1-2@s  uk-width-1-4@m card-margin-1 col-normal">
          <div class="uk-card-media-top">
             <img src="public/img/nduwur.png" alt="">
          </div>
@@ -60,7 +71,7 @@
       <!-- end -->
 
       <!-- day card -->
-      <div class="uk-card uk-card-default uk-width-1-1@s  uk-width-1-4@m card-margin-1 col-normal">
+      <div class="uk-card uk-card-default uk-width-1-2@s  uk-width-1-4@m card-margin-1 col-normal">
          <div class="uk-card-media-top">
             <img src="public/img/nduwur.png" alt="">
          </div>
@@ -86,7 +97,7 @@
    <!-- row day -->
    <div class="uk-container uk-flex uk-flex-center uk-width-1-1 grid-normal" style="margin-top: 42px; margin-bottom: 42px;" uk-grid>
       <!-- day card -->
-      <div class="uk-card uk-card-default uk-width-1-1@s uk-width-1-4@m card-margin-1 col-normal">
+      <div class="uk-card uk-card-default uk-width-1-2@s uk-width-1-4@m card-margin-1 col-normal">
          <div class="uk-card-media-top">
             <img src="public/img/nduwur.png" alt="">
          </div>
@@ -107,7 +118,7 @@
       <!-- end card -->
 
       <!-- day card -->
-      <div class="uk-card uk-card-default uk-width-1-1@s  uk-width-1-4@m card-margin-1 col-normal">
+      <div class="uk-card uk-card-default uk-width-1-2@s  uk-width-1-4@m card-margin-1 col-normal">
          <div class="uk-card-media-top">
             <img src="public/img/nduwur.png" alt="">
          </div>
@@ -128,7 +139,7 @@
       <!-- end -->
 
       <!-- day card -->
-      <div class="uk-card uk-card-default uk-width-1-1@s  uk-width-1-4@m card-margin-1 col-normal">
+      <div class="uk-card uk-card-default uk-width-1-2@s  uk-width-1-4@m card-margin-1 col-normal">
          <div class="uk-card-media-top">
             <img src="public/img/nduwur.png" alt="">
          </div>
