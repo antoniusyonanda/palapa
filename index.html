@@ -205,85 +205,46 @@
                 <p class="text-uppercase g-font-size-40--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Informasi & Berita Terkini</p>
                 <p></p>
             </div>
-            <!-- Swiper -->
-            <div class="s-swiper js__swiper-news">
-                <!-- Wrapper -->
-                <div class="swiper-wrapper g-margin-b-60--xs uk-flex uk-flex-center">
-                    <article class="s-promo-block-v6 g-bg-position--center swiper-slide" style="background: url('img/berita.png');">
-                        <div class="g-text-center--xs g-padding-x-15--xs g-padding-x-30--lg g-padding-y-50--xs g-margin-t-120--xs">
-                            <div class="">
-                                 <h3 class="g-font-size-19--xs g-color--white g-margin-b-5--xs">Info #3</h3>
-                                <p class="g-color--white g-font-size-32--xs g-font-weight--600">Informasi
-                                    <br>Penting
-                                    <br>PPSMB</p>
-                            </div> <a href="berita/info_3.html" class="text-uppercase s-btn s-btn--xs s-btn--white-brd g-radius--50">Selengkapnya</a>
-                        </div>
-                    </article>
-                    <article class="s-promo-block-v9 g-bg-position--center swiper-slide" style="background: url('img/berita.png');">
-                        <div class="g-text-center--xs g-padding-x-15--xs g-padding-x-30--lg g-padding-y-50--xs g-margin-t-120--xs">
-                            <div class="">
-                                 <h3 class="g-font-size-19--xs g-color--white g-margin-b-5--xs">Info #2</h3>
-                                <p class="g-color--white g-font-size-32--xs g-font-weight--600">Ketentuan
-                                    <br>Kelulusan
-                                    <br>PPSMB</p>
-                            </div> <a href="berita/info_2.html" class="text-uppercase s-btn s-btn--xs s-btn--white-brd g-radius--50">Selengkapnya</a>
-                        </div>
-                    </article>
-                    <article class="s-promo-block-v10 g-bg-position--center swiper-slide"
-                    style="background: url('img/berita.png');">
-                        <div class="g-text-center--xs g-padding-x-15--xs g-padding-x-30--lg g-padding-y-50--xs g-margin-t-120--xs">
-                            <div class="">
-                                 <h3 class="g-font-size-19--xs g-color--white g-margin-b-5--xs">Info #1</h3>
-                                <p class="g-color--white g-font-size-32--xs g-font-weight--600">Ketentuan
-                                    <br>Keikutsertaan
-                                    <br>PPSMB</p>
-                            </div> <a href="berita/info_1.html" class="text-uppercase s-btn s-btn--xs s-btn--white-brd g-radius--50">Selengkapnya</a>
-                        </div>
-                    </article>
-                    <!-- <article class="s-promo-block-v10 g-bg-position--center swiper-slide"
-                    style="background: url('img/berita.png');">
-
-                    <div class="g-text-center--xs g-padding-x-15--xs g-padding-x-30--lg g-padding-y-50--xs g-margin-t-120--xs">
-
-                        <div class="">
-
-                            <h3 class="g-font-size-19--xs g-color--white g-margin-b-5--xs">Info #2</h3>
-
-                            <p class="g-color--white g-font-size-32--xs g-font-weight--600">Standar <br> Prosedur <br> Operasional</p>
-
-                        </div>
-
-                        <a href="berita/info_2.html" class="text-uppercase s-btn s-btn--xs s-btn--white-brd g-radius--50">Selengkapnya</a>
-
-                    </div>
-
-                </article>
-
-            
-
-                <article class="s-promo-block-v8 g-bg-position--center swiper-slide" style="background: url('img/berita.png');">
-
-                    <div class="g-text-center--xs g-padding-x-15--xs g-padding-x-30--lg g-padding-y-50--xs g-margin-t-120--xs">
-
-                        <div class="">
-
-                            <h3 class="g-font-size-19--xs g-color--white g-margin-b-5--xs">Info #1</h3>
-
-                            <p class="g-color--white g-font-size-32--xs g-font-weight--600">Informasi <br>Penting<br>PPSMB</p>
-
-                        </div>
-
-                        <a href="berita/info_1.html" class="text-uppercase s-btn s-btn--xs s-btn--white-brd g-radius--50">Selengkapnya</a>
-
-                    </div>
-
-                </article> -->
+            <!-- slider berita -->
+            <div uk-slider>
+                <div class="uk-slider-container uk-position-relative uk-visible-toggle uk-light">
+                    <ul class="uk-slider-items uk-child-width-1-1@s uk-child-width-1-2@m uk-child-width-1-3@l uk-grid">
+                        <li>
+                            <div class="uk-card uk-card-default s-promo-block-v6" style="background: url('img/berita.png'); min-height: 454px;">
+                                <div class="uk-card-body" style="padding-top: 86px; padding-bottom: 86px;">
+                                    <div class="">
+                                         <h3 class="g-font-size-19--xs g-color--white g-margin-b-5--xs">Info #3</h3>
+                                        <p class="g-color--white g-font-size-32--xs g-font-weight--600">Informasi Penting PPSMB</p>
+                                    </div> <a href="berita/info_3.html" class="text-uppercase s-btn s-btn--xs s-btn--white-brd g-radius--50">Selengkapnya</a> 
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-default s-promo-block-v9" style="background: url('img/berita.png'); min-height: 454px;">
+                                <div class="uk-card-body" style="padding-top: 86px; padding-bottom: 86px;">
+                                    <div class="">
+                                         <h3 class="g-font-size-19--xs g-color--white g-margin-b-5--xs">Info #2</h3>
+                                        <p class="g-color--white g-font-size-32--xs g-font-weight--600">Ketentuan Kelulusan PPSMB</p>
+                                    </div> <a href="berita/info_2.html" class="text-uppercase s-btn s-btn--xs s-btn--white-brd g-radius--50">Selengkapnya</a> 
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-default s-promo-block-v10" style="background: url('img/berita.png'); min-height: 454px;">
+                                <div class="uk-card-body" style="padding-top: 86px; padding-bottom: 86px;">
+                                    <div class="">
+                                         <h3 class="g-font-size-19--xs g-color--white g-margin-b-5--xs">Info #1</h3>
+                                        <p class="g-color--white g-font-size-32--xs g-font-weight--600">Ketentuan Keikutsertaan</p>
+                                    </div> <a href="berita/info_1.html" class="text-uppercase s-btn s-btn--xs s-btn--white-brd g-radius--50">Selengkapnya</a> 
+                                </div>
+                            </div>
+                        </li>
+                    </ul> <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                    uk-slidenav-previous uk-slider-item="previous"></a> <a class="uk-position-center-right uk-position-small uk-hidden-hover"
+                    href="#" uk-slidenav-next uk-slider-item="next"></a>
                 </div>
-                <!-- End Wrapper -->
-                <!-- Pagination -->
-                <div class="s-swiper__pagination-v1 s-swiper__pagination-v1--dark g-text-center--xs js__swiper-pagination"></div>
+                <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
             </div>
-            <!-- End Swiper -->
         </div>
         <!-- / Berita -->
         <!--==========P AGE CONTENT==========-->
