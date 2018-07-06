@@ -62,7 +62,7 @@ body {
 
 #tes > img {
   position: absolute;
-  z-index: 1000;
+  z-index: 900;
 }
 
 img.kantong-parkir {
