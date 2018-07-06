@@ -45,71 +45,28 @@
 <!-- Body -->
 
 <body>
-    <!--Start of Tawk.to Script-->
-
-    <!--End of Tawk.to Script-->
-    <!--========== HEADER ==========-->
-    <header class="navbar-fixed-top s-header js__header-sticky js__header-overlay">
-        <!-- Navbar -->
+    <div class="uk-section-default" style="height: 100vh; background-color: #10418e82">
+        <video autoplay loop muted playsinline uk-cover>
+            <source src="include/media/header_landing.mp4" type="video/mp4">
+        </video>
         <partial src="navbar-home.html"></partial>
-        <!-- End Navbar -->
-
-        <!-- Overlay -->
-        <div class="s-header-bg-overlay js__bg-overlay">
-            <!-- Nav -->
-            <nav class="s-header__nav js__scrollbar">
-                <div class="container-fluid">
-                    <!-- Menu List -->
-                    <!-- <ul class="list-unstyled s-header__nav-menu">
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index.html">Corporate</a></li>
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_app_landing.html">App Landing</a></li>
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_portfolio.html">Portfolio</a></li>
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_events.html">Events</a></li>
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_lawyer.html">Lawyer</a></li>
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_clinic.html">Clinic</a></li>
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_coming_soon.html">Coming Soon</a></li>
-                    </ul>
-                    End Menu List -->
-
-                    <!-- Menu List -->
-                    <ul class="list-unstyled s-header__nav-menu">
-                        <li class="s-header__nav-menu-item">
-                            <a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="about.html">About</a>
-                        </li>
-                        <li class="s-header__nav-menu-item">
-                            <a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="team.html">Team</a>
-                        </li>
-                        <li class="s-header__nav-menu-item">
-                            <a class="s-header__nav-menu-link s-header__nav-menu-link-divider -is-active" href="services.html">Services</a>
-                        </li>
-                        <li class="s-header__nav-menu-item">
-                            <a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="events.html">Events</a>
-                        </li>
-                        <li class="s-header__nav-menu-item">
-                            <a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="faq.html">FAQ</a>
-                        </li>
-                        <li class="s-header__nav-menu-item">
-                            <a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="contacts.html">Contacts</a>
-                        </li>
-                    </ul>
-                    <!-- End Menu List -->
-                </div>
-            </nav>
-            <!-- End Nav -->
+        <div class="uk-section uk-height-1-1">
+            <div class="uk-position-center" uk-scrollspy="cls:uk-animation-fade; repeat: true; hidden: false;">
+                <img src="img/PPSMB_Logo.png" style="padding: 12px;">
+            </div>
         </div>
-        <!-- End Overlay -->
-    </header>
+    </div>
     <!--========== END HEADER ==========-->
 
     <!--========== PROMO BLOCK ==========-->
-    <section class="s-video-v2__bg" data-vidbg-bg="mp4: include/media/header_landing.mp4, webm: include/media/header_landing.webm, poster: include/media/fallback.jpg"
+    <!-- <section class="s-video-v2__bg" data-vidbg-bg="mp4: include/media/header_landing.mp4, webm: include/media/header_landing.webm, poster: include/media/fallback.jpg"
         data-vidbg-options="loop: true, muted: true, overlay: false">
         <div class="container g-position--overlay g-text-center--xs">
             <div class="g-padding-y-50--xs g-margin-t-100--xs g-margin-b-100--xs g-margin-b-250--md">
                 <img style="max-width: 70%;" src="img/PPSMB_Logo.png" class="img-fluid" alt="PPSMB UGM 2018">
             </div>
         </div>
-    </section>
+    </section> -->
     <!--========== END PROMO BLOCK ==========-->
 
     <!--========== PAGE CONTENT ==========-->
@@ -285,7 +242,7 @@
 
     <!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
     <!-- Vendor -->
-    <script type="text/javascript" src="vendor/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="vendor/jquery.min.js"></script>
     <script type="text/javascript" src="vendor/jquery.migrate.min.js"></script>
     <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="vendor/jquery.smooth-scroll.min.js"></script>
@@ -296,20 +253,20 @@
     <script type="text/javascript" src="vendor/waypoint.min.js"></script>
     <script type="text/javascript" src="vendor/counterup.min.js"></script>
     <script type="text/javascript" src="vendor/swiper/swiper.jquery.min.js"></script>
-    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsXUGTFS09pLVdsYEE9YrO2y4IAncAO2U"></script> -->
-    <script type="text/javascript" src="vendor/jquery.wow.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsXUGTFS09pLVdsYEE9YrO2y4IAncAO2U"></script>
+    <script type="text/javascript" src="vendor/jquery.wow.min.js"></script> -->
 
     <!-- General Components and Settings -->
-    <script type="text/javascript" src="js/global.min.js"></script>
+    <!-- <script type="text/javascript" src="js/global.min.js"></script>
     <script type="text/javascript" src="js/components/header-sticky.min.js"></script>
     <script type="text/javascript" src="js/components/scrollbar.min.js"></script>
     <script type="text/javascript" src="js/components/portfolio-4-col-slider.min.js"></script>
     <script type="text/javascript" src="js/components/counter.min.js"></script>
     <script type="text/javascript" src="js/components/swiper.min.js"></script>
-    <script type="text/javascript" src="js/components/wow.min.js"></script>
+    <script type="text/javascript" src="js/components/wow.min.js"></script> -->
     <!--========== END JAVASCRIPTS ==========-->
     <!-- Vendor -->
-    <script type="text/javascript" src="vendor/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="vendor/jquery.min.js"></script>
     <script type="text/javascript" src="vendor/jquery.migrate.min.js"></script>
     <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="vendor/jquery.smooth-scroll.min.js"></script>
@@ -322,10 +279,10 @@
     <script type="text/javascript" src="vendor/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
     <script type="text/javascript" src="vendor/jquery.parallax.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsXUGTFS09pLVdsYEE9YrO2y4IAncAO2U"></script>
-    <script type="text/javascript" src="vendor/jquery.wow.min.js"></script>
+    <script type="text/javascript" src="vendor/jquery.wow.min.js"></script> -->
 
     <!-- General Components and Settings -->
-    <script type="text/javascript" src="js/global.min.js"></script>
+    <!-- <script type="text/javascript" src="js/global.min.js"></script>
     <script type="text/javascript" src="js/components/header-sticky.min.js"></script>
     <script type="text/javascript" src="js/components/scrollbar.min.js"></script>
     <script type="text/javascript" src="js/components/magnific-popup.min.js"></script>
@@ -334,7 +291,7 @@
     <script type="text/javascript" src="js/components/portfolio-3-col.min.js"></script>
     <script type="text/javascript" src="js/components/parallax.min.js"></script>
     <script type="text/javascript" src="js/components/google-map.min.js"></script>
-    <script type="text/javascript" src="js/components/wow.min.js"></script>
+    <script type="text/javascript" src="js/components/wow.min.js"></script> -->
 
     <!--========== END JAVASCRIPTS ==========-->
 
